@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="illustration-mobile">
+        <img
+          class="woman-mobile"
+          src="images/illustration-woman-online-mobile.svg"
+          alt="illustration of woman on top of desk looking at computer"
+        />
+        <img
+          class="mobile-background"
+          src="images/bg-pattern-mobile.svg"
+          alt="mobile background pattern for illustration"
+        />
+      </div>
+
+      <img
+        class="box"
+        src="images/illustration-box-desktop.svg"
+        alt="box-illustration"
+      />
+
+      <div class="illustration-container">
+        <div class="img-container--2">
+          <img
+            class="illustration"
+            src="images/illustration-woman-online-desktop.svg"
+            alt="illustration of woman on top of desk looking at computer"
+          />
+        </div>
+        <div class="img-container--3">
+          <img
+            class="illustration-back"
+            src="images/bg-pattern-desktop.svg"
+            alt="background pattern for illustration"
+          />
+        </div>
+      </div>
+
+      <div class="tabs-container">
+        <h1>FAQ</h1>
+        <div class="tab" data-tab="1">
+          <div class="question-container">
+            <span class="question">How many team members can I invite?</span>
+            <button class="btn-tab">
+              <img src="images/icon-arrow-down.svg" alt="Down arrow" />
+            </button>
+          </div>
+          <p class="answer">
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </p>
+        </div>
+        <div class="tab" data-tab="2">
+          <div class="question-container">
+            <span class="question">What is the maximum file upload size?</span>
+            <button class="btn-tab">
+              <img src="images/icon-arrow-down.svg" alt="Down arrow" />
+            </button>
+          </div>
+          <p class="answer">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </p>
+        </div>
+        <div class="tab" data-tab="3">
+          <div class="question-container">
+            <span class="question">How do I reset my password?</span>
+            <button class="btn-tab">
+              <img src="images/icon-arrow-down.svg" alt="Down arrow" />
+            </button>
+          </div>
+          <p class="answer">
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </p>
+        </div>
+        <div class="tab" data-tab="4">
+          <div class="question-container">
+            <span class="question">Can I cancel my subscription?</span>
+            <button class="btn-tab">
+              <img src="images/icon-arrow-down.svg" alt="Down arrow" />
+            </button>
+          </div>
+          <p class="answer">
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </p>
+        </div>
+        <div class="tab" data-tab="5">
+          <div class="question-container">
+            <span class="question">Do you provide additional support?</span>
+            <button class="btn-tab">
+              <img src="images/icon-arrow-down.svg" alt="Down arrow" />
+            </button>
+          </div>
+          <p class="answer">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Valentin Jaimes-Costilla</a>.
+    </footer>
+  </body>
+</html>
